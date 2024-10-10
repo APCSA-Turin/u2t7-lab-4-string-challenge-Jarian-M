@@ -4,22 +4,18 @@ public class StringProblems{
     //empty constructor
     public StringProblems(){}
 
-
     // Given a string, return true if it ends in "ly".
     // endsLy("oddly") → true
     // endsLy("y") → false
     // endsLy("oddy") → false
     public boolean endsLy(String x){
         //implement code here
-        int len = x.length();
-        String endLet = x.substring(len - 2, len);
-        if(endLet.equals("ly")) {
+        if(x.indexOf("ly") != -1) {
             return true;
         } else {
             return false;
         }
     }
-
 
     // Given two strings, append them together (known as "concatenation") 
     // and return the result. However, if the concatenation creates a double-char, 
@@ -116,7 +112,7 @@ public class StringProblems{
         String lastB = s1.substring(len - 1, len);
         if(firstF.equals("f")) {
             if(lastB.equals("b")) {
-                return "FizzBuzz!";
+                return "FizzBuzz";
             }
         }
         if(firstF.equals("f")) {
@@ -143,7 +139,7 @@ public class StringProblems{
         String num = String.valueOf(x);
         if(x % 3 == 0) {
             if(x % 5 == 0) {
-                return "FizzBuzz";
+                return "FizzBuzz!";
             }
         }
         if(x % 3 == 0) {
