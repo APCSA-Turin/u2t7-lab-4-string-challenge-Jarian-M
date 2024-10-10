@@ -12,7 +12,7 @@ public class StringProblems{
     public boolean endsLy(String x){
         //implement code here
         int len = x.length();
-        String endLet = x.substring(len - 1, len);
+        String endLet = x.substring(len - 2, len);
         if(endLet.equals("ly")) {
             return true;
         } else {
@@ -31,6 +31,12 @@ public class StringProblems{
         //implement code here
         int len1 = s1.length();
         int len2 = s2.length();
+        if(len1 == 0) {
+            return s2;
+        } 
+        if(len2 == 0) {
+            return s1;
+        }
         String lastLet1 = s1.substring(len1 - 1, len2);
         String firstLet2 = s2.substring(0, 1);
         String noFirst2 = s2.substring(1);
@@ -110,7 +116,7 @@ public class StringProblems{
         String lastB = s1.substring(len - 1, len);
         if(firstF.equals("f")) {
             if(lastB.equals("b")) {
-                return "FizzBuzz";
+                return "FizzBuzz!";
             }
         }
         if(firstF.equals("f")) {
