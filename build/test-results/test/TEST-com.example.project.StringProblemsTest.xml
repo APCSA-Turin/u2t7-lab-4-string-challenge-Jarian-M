@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.StringProblemsTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2024-10-10T21:49:08" hostname="codespaces-10a251" time="0.161">
+<testsuite name="com.example.project.StringProblemsTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2024-10-10T21:52:19" hostname="codespaces-10a251" time="0.175">
   <properties/>
-  <testcase name="testEndsly1()" classname="com.example.project.StringProblemsTest" time="0.034"/>
+  <testcase name="testEndsly1()" classname="com.example.project.StringProblemsTest" time="0.059"/>
   <testcase name="testEndsly2()" classname="com.example.project.StringProblemsTest" time="0.002"/>
-  <testcase name="testEndsly3()" classname="com.example.project.StringProblemsTest" time="0.002"/>
-  <testcase name="testfizzString2A()" classname="com.example.project.StringProblemsTest" time="0.004"/>
-  <testcase name="testfizzString2B()" classname="com.example.project.StringProblemsTest" time="0.004"/>
+  <testcase name="testEndsly3()" classname="com.example.project.StringProblemsTest" time="0.001"/>
+  <testcase name="testfizzString2A()" classname="com.example.project.StringProblemsTest" time="0.002"/>
+  <testcase name="testfizzString2B()" classname="com.example.project.StringProblemsTest" time="0.005"/>
   <testcase name="testfizzString2C()" classname="com.example.project.StringProblemsTest" time="0.001"/>
-  <testcase name="testfizzString2D()" classname="com.example.project.StringProblemsTest" time="0.002"/>
+  <testcase name="testfizzString2D()" classname="com.example.project.StringProblemsTest" time="0.001"/>
   <testcase name="testfizzString2E()" classname="com.example.project.StringProblemsTest" time="0.001"/>
   <testcase name="testfizzString1()" classname="com.example.project.StringProblemsTest" time="0.002"/>
-  <testcase name="testfizzString2()" classname="com.example.project.StringProblemsTest" time="0.001"/>
-  <testcase name="testfizzString3()" classname="com.example.project.StringProblemsTest" time="0.0"/>
-  <testcase name="testConcat1()" classname="com.example.project.StringProblemsTest" time="0.03"/>
-  <testcase name="testConcat2()" classname="com.example.project.StringProblemsTest" time="0.0"/>
-  <testcase name="testConcat3()" classname="com.example.project.StringProblemsTest" time="0.008"/>
-  <testcase name="testDefont1()" classname="com.example.project.StringProblemsTest" time="0.001"/>
-  <testcase name="testDefont2()" classname="com.example.project.StringProblemsTest" time="0.001"/>
-  <testcase name="testDefont3()" classname="com.example.project.StringProblemsTest" time="0.001"/>
-  <testcase name="testDefont4()" classname="com.example.project.StringProblemsTest" time="0.0"/>
-  <testcase name="testDefont5()" classname="com.example.project.StringProblemsTest" time="0.003"/>
-  <testcase name="testDefont6()" classname="com.example.project.StringProblemsTest" time="0.001"/>
+  <testcase name="testfizzString2()" classname="com.example.project.StringProblemsTest" time="0.0"/>
+  <testcase name="testfizzString3()" classname="com.example.project.StringProblemsTest" time="0.001"/>
+  <testcase name="testConcat1()" classname="com.example.project.StringProblemsTest" time="0.029"/>
+  <testcase name="testConcat2()" classname="com.example.project.StringProblemsTest" time="0.002"/>
+  <testcase name="testConcat3()" classname="com.example.project.StringProblemsTest" time="0.001"/>
+  <testcase name="testDefont1()" classname="com.example.project.StringProblemsTest" time="0.002"/>
+  <testcase name="testDefont2()" classname="com.example.project.StringProblemsTest" time="0.0"/>
+  <testcase name="testDefont3()" classname="com.example.project.StringProblemsTest" time="0.006"/>
+  <testcase name="testDefont4()" classname="com.example.project.StringProblemsTest" time="0.002"/>
+  <testcase name="testDefont5()" classname="com.example.project.StringProblemsTest" time="0.002"/>
+  <testcase name="testDefont6()" classname="com.example.project.StringProblemsTest" time="0.002"/>
   <testcase name="testWithoutX1()" classname="com.example.project.StringProblemsTest" time="0.001"/>
-  <testcase name="testWithoutX2()" classname="com.example.project.StringProblemsTest" time="0.001"/>
-  <testcase name="testWithoutX3()" classname="com.example.project.StringProblemsTest" time="0.0"/>
+  <testcase name="testWithoutX2()" classname="com.example.project.StringProblemsTest" time="0.002"/>
+  <testcase name="testWithoutX3()" classname="com.example.project.StringProblemsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
